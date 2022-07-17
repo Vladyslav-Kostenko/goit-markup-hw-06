@@ -42,7 +42,9 @@ li,
 p,
 h1,
 h2,
-h3 {
+h3,
+h4,
+label {
     margin: 0;
 }
 
@@ -546,6 +548,10 @@ footer .header {
 .footer-links .link:focus {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
+}
+
+.subscription {
+    margin-left: auto;
 }
 
 .subscription:focus-within .subscription-label,
